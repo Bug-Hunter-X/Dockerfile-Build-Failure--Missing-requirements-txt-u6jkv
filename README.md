@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to include the `requirements.txt` file before attempting to install dependencies. The initial `Dockerfile` is missing the crucial `COPY` instruction for `requirements.txt`.  The `Dockerfile_fixed` provides a corrected version.
